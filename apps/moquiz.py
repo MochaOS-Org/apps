@@ -3,6 +3,10 @@
 import time
 import os
 
+print("Hello bruh")
+time.sleep(2)
+os.system('clear')
+
 logo = '''
  __    __     ______     ______     __  __     __     ______    
 /\ "-./  \   /\  __ \   /\  __ \   /\ \/\ \   /\ \   /\___  \   
@@ -55,7 +59,7 @@ if choice1 == "LeafOS":
                                 quit()
                             else:
                                 choice9 = input("How to save mother earth in 3 WORDS? ")
-                                if choice9 != "Reduce, Reuse, Recycle":
+                                if choice9 != "Reduce, Reuse, Recycle" and choice9 != "reduce, reuse, recycle" and choice9 != "Reduce Reuse Recycle" and choice9 != "reduce reuse recycle":
                                     print("Imagine getting it wrong on the last question...")
                                     time.sleep(2)
                                     quit()
