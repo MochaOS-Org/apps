@@ -3,8 +3,6 @@
 import time
 import os
 
-print("Hello bruh")
-time.sleep(2)
 os.system('clear')
 
 logo = '''
